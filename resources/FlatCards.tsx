@@ -46,13 +46,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'space-evenly',
-    marginBottom: 12,
+    marginBottom: 1,
     marginTop: 6
   },
   card:{
       flexDirection: 'row',
       width: 180 ,
-      backgroundColor: '#141414',
+      backgroundColor: '#424769',
       marginBottom: 8,
       height: 50,
       borderRadius: 12,

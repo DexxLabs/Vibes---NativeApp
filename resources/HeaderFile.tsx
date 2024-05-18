@@ -18,7 +18,11 @@ const styles = StyleSheet.create({
         fontSize: 22,
         color: '#000',
         padding: 12,
-        marginTop:20
+        marginTop:20,
+        shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5
     },
     headerTextDark:{
       fontFamily: 'Poppins Light',
