@@ -59,14 +59,21 @@ headerTextDark:{
   
 },
 container:{
-    marginLeft: 8 
+    marginLeft: 8 ,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5
 },
 section:{},
 
 roundimage:{
   marginHorizontal:8,
   alignItems: 'center',
-  
+  shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5
   
 },
 bottomtext:{

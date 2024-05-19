@@ -51,8 +51,8 @@ const styles = StyleSheet.create({
   },
   card:{
       flexDirection: 'row',
-      width: 180 ,
-      backgroundColor: '#424769',
+      flexBasis: 170,
+      backgroundColor: '#40A578',
       marginBottom: 8,
       height: 50,
       borderRadius: 12,
@@ -66,8 +66,9 @@ const styles = StyleSheet.create({
   },
   cardDark:{
     flexDirection: 'row',
-    width: 180 ,
+    flexBasis: 170,
     backgroundColor: '#ffffff',
+    
     marginBottom: 8,
     height: 50,
     borderRadius: 12,

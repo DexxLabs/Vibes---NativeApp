@@ -4,6 +4,8 @@ import HeaderFile from './resources/HeaderFile'
 import FlatCards from './resources/FlatCards'
 import ListenTogether from './resources/ListenTogether'
 import RecentlyPlayed from './resources/RecentlyPlayed'
+import NavigationBar from './resources/NavigationBar'
+import NowPlaying from './resources/NowPlaying'
 
 export default function App() {
   const mode = useColorScheme() === 'dark'
@@ -14,8 +16,11 @@ export default function App() {
         <HeaderFile/>
         <FlatCards/>
         <ListenTogether/>
+        <NowPlaying/>
         <RecentlyPlayed/>
+        
         </ScrollView>
+        <NavigationBar/>
     </SafeAreaView>
   )
 }
@@ -26,7 +31,7 @@ const styles = StyleSheet.create({
     flex:1
   },
   background:{
-    backgroundColor: '#ffffff',
+    backgroundColor: '#FFFFFF',
     flex:1
   }
 
