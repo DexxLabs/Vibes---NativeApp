@@ -12,13 +12,12 @@ export default function App() {
   return (
     <SafeAreaView style={mode?styles.backgroundDark : styles.background}>
       <StatusBar backgroundColor={mode?'#141414' : '#ffffff'}/>
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <HeaderFile/>
         <FlatCards/>
         <ListenTogether/>
         <NowPlaying/>
         <RecentlyPlayed/>
-        
         </ScrollView>
         <NavigationBar/>
     </SafeAreaView>
